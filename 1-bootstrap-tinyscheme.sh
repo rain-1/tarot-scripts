@@ -39,7 +39,8 @@ tinyscheme_tarot_compile "$TAROT/std/queue.scm" "$TAROT/std/seq.scm" "$TAROT/std
 
 echo '###' compiling passes
 tinyscheme_tarot_compile \
-	"$TAROT/passes/parser.scm" \
+	"$TAROT/passes/parser.scm"
+tinyscheme_tarot_compile \
 	"$TAROT/passes/desugar.scm" \
 	"$TAROT/passes/hoist.scm" \
 	"$TAROT/passes/denest.scm" \

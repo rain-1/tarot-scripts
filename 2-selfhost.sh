@@ -35,7 +35,8 @@ tarot_compile \
 
 echo '###' compiling passes
 tarot_compile \
-        "$TAROTOUT/passes/parser.scm" \
+        "$TAROTOUT/passes/parser.scm"
+tarot_compile \
         "$TAROTOUT/passes/desugar.scm" \
         "$TAROTOUT/passes/hoist.scm" \
         "$TAROTOUT/passes/denest.scm" \
