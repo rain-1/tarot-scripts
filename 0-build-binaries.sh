@@ -7,7 +7,7 @@ mkdir -p build/
 	cp init.scm ../build
 )
 (
-	cd vm
+	cd tarot-vm
 	make
 	cp vm ../build/
 )
