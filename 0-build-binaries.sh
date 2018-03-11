@@ -4,6 +4,7 @@ mkdir -p build/
 (
 	cd tinyscheme
 	make
+	cp scheme ../build
 	cp init.scm ../build
 )
 (
