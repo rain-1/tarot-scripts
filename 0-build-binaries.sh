@@ -3,7 +3,7 @@
 mkdir -p build/
 (
 	cd tinyscheme
-	cc -o ../build/scheme -lm scheme.c
+	make
 	cp init.scm ../build
 )
 (
