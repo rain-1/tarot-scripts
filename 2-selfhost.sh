@@ -48,3 +48,4 @@ echo '###' compiling compiler
 tarot_compile "$TAROTOUT/compiler.scm"
 tarot_compile "$TAROTOUT/eval.scm"
 tarot_compile "$TAROTOUT/compile-file.scm"
+tarot_compile "$TAROTOUT/debug-compile-file.scm"
