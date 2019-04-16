@@ -1,2 +1,2 @@
 #!/bin/bash
-diff -r build/tinyscheme-bootstrap/ build/tarot-selfhost/ | grep -v tinyscheme-bootstrap | grep -v tarot-selfhost
+diff -r build/tarot-singlecream/ build/tarot-selfhost/ | grep -v tarot-singlecream | grep -v tarot-selfhost

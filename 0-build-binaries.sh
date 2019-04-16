@@ -2,10 +2,11 @@
 
 mkdir -p build/
 (
-	cd tinyscheme
+	cd single_cream
 	make
-	cp scheme ../build
-	cp init.scm ../build
+# XXX TODO
+#	cp scheme ../build
+#	cp init.scm ../build
 )
 (
 	cd tarot-vm

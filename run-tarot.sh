@@ -5,7 +5,7 @@ set -x
 # TAROTVM=./build/vm
 # TAROTVM="lldb ./build/vm --"
 
-# TAROT=./build/tinyscheme-bootstrap/
+# TAROT=./build/tarot-singlecream/
 # TAROT=./build/tarot-selfhost/
 # (the tree containing the .q files)
 

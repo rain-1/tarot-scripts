@@ -3,7 +3,7 @@ set -e
 set -x
 
 export TAROTVM=./build/vm
-export TAROT=build/tinyscheme-bootstrap
+export TAROT=build/tarot-singlecream
 export TAROTOUT=build/tarot-selfhost
 
 function tarot_compile() {
